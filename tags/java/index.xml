@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java on 碎石成沙</title>
+    <link>https://lu4er.github.io/tags/java/</link>
+    <description>Recent content in Java on 碎石成沙</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 10 Apr 2024 17:24:42 +0800</lastBuildDate><atom:link href="https://lu4er.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java全局异常处理</title>
+      <link>https://lu4er.github.io/posts/tech/java%E5%85%A8%E5%B1%80%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</link>
+      <pubDate>Wed, 10 Apr 2024 17:24:42 +0800</pubDate>
+      
+      <guid>https://lu4er.github.io/posts/tech/java%E5%85%A8%E5%B1%80%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</guid>
+      <description>controller包的异常处理和Controller类的异常处理 @Slf4j @RestControllerAdvice(&amp;#34;com.xxx.xxx&amp;#34;) // controller类所在包名 public class GlobalExceptionHandler { @ExceptionHandler({BizException.class}) public BaseResp&amp;lt;?&amp;gt; handleBizException(HttpServletRequest request, BizException exception) { return BaseResult.error(exception.getErrorCode(), exception.getMessage()); } @ExceptionHandler({Exception.class}) public BaseResp&amp;lt;?&amp;gt; handleException(HttpServletRequest request, Exception exception) { return BaseResult.error(HttpStatus.INTERNAL_SERVER_ERROR.value() + &amp;#34;&amp;#34;, exception.getMessage()); } } @Slf4j @RestControllerAdvice(basePackageClasses = OrderController.class) // 只处理OrderController类 @Order(Ordered.HIGHEST_PRECEDENCE) // 优先级必须比全局处理高 public class OrderExceptionHandler { @ExceptionHandler(Exception.class) public &amp;lt;T&amp;gt; BaseResp&amp;lt;T&amp;gt; handleException(HttpServletRequest request, Exception e) { BaseResp&amp;lt;T&amp;gt; resp = new BaseResp&amp;lt;&amp;gt;(); if (e instanceof</description>
+    </item>
+    
+  </channel>
+</rss>

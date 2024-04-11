@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🧩 标签 on 碎石成沙</title>
+    <link>https://lu4er.github.io/tags/</link>
+    <description>Recent content in 🧩 标签 on 碎石成沙</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 10 Apr 2024 17:24:42 +0800</lastBuildDate><atom:link href="https://lu4er.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://lu4er.github.io/tags/java/</link>
+      <pubDate>Wed, 10 Apr 2024 17:24:42 +0800</pubDate>
+      
+      <guid>https://lu4er.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>订阅</title>
+      <link>https://lu4er.github.io/tags/%E8%AE%A2%E9%98%85/</link>
+      <pubDate>Thu, 28 Mar 2024 20:42:18 +0800</pubDate>
+      
+      <guid>https://lu4er.github.io/tags/%E8%AE%A2%E9%98%85/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

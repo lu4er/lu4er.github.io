@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://lu4er.github.io/sitemap.xml
